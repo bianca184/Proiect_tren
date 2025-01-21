@@ -1,0 +1,570 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sat Jun 01 19:43:40 2024
+# Process ID: 2724
+# Current directory: C:/Users/bianc/Desktop/Tren/Tren.runs/synth_1
+# Command line: vivado.exe -log MAIN.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MAIN.tcl
+# Log file: C:/Users/bianc/Desktop/Tren/Tren.runs/synth_1/MAIN.vds
+# Journal file: C:/Users/bianc/Desktop/Tren/Tren.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source MAIN.tcl -notrace
+Command: synth_design -top MAIN -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 21580 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 277.348 ; gain = 67.449
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'MAIN' [C:/Users/bianc/Desktop/ProiectTrenV3/CFR_Calatori/CFR_Calatori.srcs/sources_1/new/MAIN.vhd:15]
+WARNING: [Synth 8-614] signal 'nrBancnote' is read in the process but is not in the sensitivity list [C:/Users/bianc/Desktop/ProiectTrenV3/CFR_Calatori/CFR_Calatori.srcs/sources_1/new/MAIN.vhd:68]
+WARNING: [Synth 8-614] signal 'nrKm' is read in the process but is not in the sensitivity list [C:/Users/bianc/Desktop/ProiectTrenV3/CFR_Calatori/CFR_Calatori.srcs/sources_1/new/MAIN.vhd:68]
+WARNING: [Synth 8-614] signal 'rutaValida' is read in the process but is not in the sensitivity list [C:/Users/bianc/Desktop/ProiectTrenV3/CFR_Calatori/CFR_Calatori.srcs/sources_1/new/MAIN.vhd:68]
+WARNING: [Synth 8-614] signal 'sumaDePlataRamas' is read in the process but is not in the sensitivity list [C:/Users/bianc/Desktop/ProiectTrenV3/CFR_Calatori/CFR_Calatori.srcs/sources_1/new/MAIN.vhd:68]
+WARNING: [Synth 8-614] signal 'nrr20' is read in the process but is not in the sensitivity list [C:/Users/bianc/Desktop/ProiectTrenV3/CFR_Calatori/CFR_Calatori.srcs/sources_1/new/MAIN.vhd:68]
+WARNING: [Synth 8-614] signal 'debug' is read in the process but is not in the sensitivity list [C:/Users/bianc/Desktop/ProiectTrenV3/CFR_Calatori/CFR_Calatori.srcs/sources_1/new/MAIN.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'ModPlata' [C:/Users/bianc/Desktop/ProiectTrenV3/CFR_Calatori/CFR_Calatori.srcs/sources_1/new/ModPlata.vhd:38]
+INFO: [Synth 8-256] done synthesizing module 'ModPlata' (1#1) [C:/Users/bianc/Desktop/ProiectTrenV3/CFR_Calatori/CFR_Calatori.srcs/sources_1/new/ModPlata.vhd:38]
+INFO: [Synth 8-638] synthesizing module 'SelectareRuta' [C:/Users/bianc/Desktop/ProiectTrenV3/CFR_Calatori/CFR_Calatori.srcs/sources_1/new/SelectareRuta.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'SelectareRuta' (2#1) [C:/Users/bianc/Desktop/ProiectTrenV3/CFR_Calatori/CFR_Calatori.srcs/sources_1/new/SelectareRuta.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'CasaDeBani' [C:/Users/bianc/Desktop/ProiectTrenV3/CFR_Calatori/CFR_Calatori.srcs/sources_1/new/CasaDeBani.vhd:33]
+WARNING: [Synth 8-3848] Net flagflag in module/entity CasaDeBani does not have driver. [C:/Users/bianc/Desktop/ProiectTrenV3/CFR_Calatori/CFR_Calatori.srcs/sources_1/new/CasaDeBani.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'CasaDeBani' (3#1) [C:/Users/bianc/Desktop/ProiectTrenV3/CFR_Calatori/CFR_Calatori.srcs/sources_1/new/CasaDeBani.vhd:33]
+INFO: [Synth 8-638] synthesizing module 'Debouncer' [C:/Users/bianc/Desktop/ProiectTrenV3/CFR_Calatori/CFR_Calatori.srcs/sources_1/new/Debouncer.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'Debouncer' (4#1) [C:/Users/bianc/Desktop/ProiectTrenV3/CFR_Calatori/CFR_Calatori.srcs/sources_1/new/Debouncer.vhd:11]
+INFO: [Synth 8-638] synthesizing module 'Decodificator' [C:/Users/bianc/Desktop/ProiectTrenV3/CFR_Calatori/CFR_Calatori.srcs/sources_1/new/Decodificator.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'Decodificator' (5#1) [C:/Users/bianc/Desktop/ProiectTrenV3/CFR_Calatori/CFR_Calatori.srcs/sources_1/new/Decodificator.vhd:11]
+INFO: [Synth 8-638] synthesizing module 'Afisor' [C:/Users/bianc/Desktop/ProiectTrenV3/CFR_Calatori/CFR_Calatori.srcs/sources_1/new/Afisor.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'Afisor' (6#1) [C:/Users/bianc/Desktop/ProiectTrenV3/CFR_Calatori/CFR_Calatori.srcs/sources_1/new/Afisor.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'MAIN' (7#1) [C:/Users/bianc/Desktop/ProiectTrenV3/CFR_Calatori/CFR_Calatori.srcs/sources_1/new/MAIN.vhd:15]
+WARNING: [Synth 8-3331] design CasaDeBani has unconnected port flagflag
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[15]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[14]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[13]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[12]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[11]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[10]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[9]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[8]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[7]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[6]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[5]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[4]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[3]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[2]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[1]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[0]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port flagflag
+WARNING: [Synth 8-3331] design MAIN has unconnected port sw[12]
+WARNING: [Synth 8-3331] design MAIN has unconnected port sw[11]
+WARNING: [Synth 8-3331] design MAIN has unconnected port sw[10]
+WARNING: [Synth 8-3331] design MAIN has unconnected port sw[9]
+WARNING: [Synth 8-3331] design MAIN has unconnected port sw[8]
+WARNING: [Synth 8-3331] design MAIN has unconnected port sw[6]
+WARNING: [Synth 8-3331] design MAIN has unconnected port sw[5]
+WARNING: [Synth 8-3331] design MAIN has unconnected port sw[4]
+WARNING: [Synth 8-3331] design MAIN has unconnected port btn[4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 315.645 ; gain = 105.746
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 315.645 ; gain = 105.746
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/bianc/Desktop/ProiectTrenV3/CFR_Calatori/CFR_Calatori.srcs/constrs_1/new/Constrains.xdc]
+Finished Parsing XDC File [C:/Users/bianc/Desktop/ProiectTrenV3/CFR_Calatori/CFR_Calatori.srcs/constrs_1/new/Constrains.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/bianc/Desktop/ProiectTrenV3/CFR_Calatori/CFR_Calatori.srcs/constrs_1/new/Constrains.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/MAIN_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/MAIN_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 618.340 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 618.340 ; gain = 408.441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 618.340 ; gain = 408.441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 618.340 ; gain = 408.441
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'l20out_reg[15:0]' into 'l50out_reg[15:0]' [C:/Users/bianc/Desktop/ProiectTrenV3/CFR_Calatori/CFR_Calatori.srcs/sources_1/new/ModPlata.vhd:100]
+INFO: [Synth 8-4471] merging register 'l10out_reg[15:0]' into 'l50out_reg[15:0]' [C:/Users/bianc/Desktop/ProiectTrenV3/CFR_Calatori/CFR_Calatori.srcs/sources_1/new/ModPlata.vhd:101]
+INFO: [Synth 8-4471] merging register 'l5out_reg[15:0]' into 'l50out_reg[15:0]' [C:/Users/bianc/Desktop/ProiectTrenV3/CFR_Calatori/CFR_Calatori.srcs/sources_1/new/ModPlata.vhd:102]
+INFO: [Synth 8-4471] merging register 'l2out_reg[15:0]' into 'l50out_reg[15:0]' [C:/Users/bianc/Desktop/ProiectTrenV3/CFR_Calatori/CFR_Calatori.srcs/sources_1/new/ModPlata.vhd:103]
+INFO: [Synth 8-4471] merging register 'l1out_reg[15:0]' into 'l50out_reg[15:0]' [C:/Users/bianc/Desktop/ProiectTrenV3/CFR_Calatori/CFR_Calatori.srcs/sources_1/new/ModPlata.vhd:104]
+INFO: [Synth 8-5545] ROM "restPosibil" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "nr40" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "nr30" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "nr20" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:29 . Memory (MB): peak = 618.340 ; gain = 408.441
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 6     
+	   3 Input     32 Bit       Adders := 5     
+	   2 Input     31 Bit       Adders := 7     
+	   2 Input     16 Bit       Adders := 10    
+	   3 Input     16 Bit       Adders := 13    
+	   2 Input      4 Bit       Adders := 4     
++---Registers : 
+	               32 Bit    Registers := 17    
+	               16 Bit    Registers := 16    
+	                1 Bit    Registers := 15    
++---Multipliers : 
+	                 6x32  Multipliers := 1     
+	                 5x32  Multipliers := 1     
+	                 4x32  Multipliers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 18    
+	   2 Input     31 Bit        Muxes := 7     
+	   2 Input     19 Bit        Muxes := 1     
+	   2 Input     18 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 50    
+	   2 Input     15 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 7     
+	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 46    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module MAIN 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 9     
+	   2 Input     15 Bit        Muxes := 2     
+Module ModPlata 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   3 Input     32 Bit       Adders := 5     
+	   2 Input     31 Bit       Adders := 4     
+	   2 Input     16 Bit       Adders := 6     
+	   3 Input     16 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 15    
+	               16 Bit    Registers := 9     
+	                1 Bit    Registers := 2     
++---Multipliers : 
+	                 6x32  Multipliers := 1     
+	                 5x32  Multipliers := 1     
+	                 4x32  Multipliers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 14    
+	   2 Input     31 Bit        Muxes := 4     
+	   2 Input     19 Bit        Muxes := 1     
+	   2 Input     18 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 7     
+Module SelectareRuta 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
+	               16 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 10    
+Module CasaDeBani 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     16 Bit       Adders := 11    
+	   2 Input     16 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 35    
+	   2 Input      1 Bit        Muxes := 29    
+Module Debouncer 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
+Module Decodificator 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     31 Bit       Adders := 3     
+	   2 Input      4 Bit       Adders := 4     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input     31 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 7     
+Module Afisor 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "restPosibil" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "nr20" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "nr30" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "nr40" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-3331] design CasaDeBani has unconnected port flagflag
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[15]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[14]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[13]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[12]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[11]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[10]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[9]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[8]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[7]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[6]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[5]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[4]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[3]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[2]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[1]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port nrKm[0]
+WARNING: [Synth 8-3331] design ModPlata has unconnected port flagflag
+WARNING: [Synth 8-3331] design MAIN has unconnected port sw[12]
+WARNING: [Synth 8-3331] design MAIN has unconnected port sw[11]
+WARNING: [Synth 8-3331] design MAIN has unconnected port sw[10]
+WARNING: [Synth 8-3331] design MAIN has unconnected port sw[9]
+WARNING: [Synth 8-3331] design MAIN has unconnected port sw[8]
+WARNING: [Synth 8-3331] design MAIN has unconnected port sw[6]
+WARNING: [Synth 8-3331] design MAIN has unconnected port sw[5]
+WARNING: [Synth 8-3331] design MAIN has unconnected port sw[4]
+WARNING: [Synth 8-3331] design MAIN has unconnected port btn[4]
+INFO: [Synth 8-3886] merging instance 'MDP/a1_reg[16]' (FDRE) to 'MDP/a1_reg[17]'
+INFO: [Synth 8-3886] merging instance 'MDP/a1_reg[17]' (FDRE) to 'MDP/a1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'MDP/a1_reg[18]' (FDRE) to 'MDP/a1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'MDP/a1_reg[19]' (FDRE) to 'MDP/a1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'MDP/a1_reg[20]' (FDRE) to 'MDP/a1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'MDP/a1_reg[21]' (FDRE) to 'MDP/a1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'MDP/a1_reg[22]' (FDRE) to 'MDP/a1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'MDP/a1_reg[23]' (FDRE) to 'MDP/a1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'MDP/a1_reg[24]' (FDRE) to 'MDP/a1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'MDP/a1_reg[25]' (FDRE) to 'MDP/a1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'MDP/a1_reg[26]' (FDRE) to 'MDP/a1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'MDP/a1_reg[27]' (FDRE) to 'MDP/a1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'MDP/a1_reg[28]' (FDRE) to 'MDP/a1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'MDP/a1_reg[29]' (FDRE) to 'MDP/a1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'MDP/a1_reg[30]' (FDRE) to 'MDP/a1_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (MDP/\a1_reg[31] )
+INFO: [Synth 8-3886] merging instance 'MDP/a2_reg[27]' (FDE) to 'MDP/a2_reg[28]'
+INFO: [Synth 8-3886] merging instance 'MDP/a2_reg[28]' (FDE) to 'MDP/a2_reg[29]'
+INFO: [Synth 8-3886] merging instance 'MDP/a2_reg[29]' (FDE) to 'MDP/a2_reg[30]'
+INFO: [Synth 8-3886] merging instance 'MDP/a2_reg[30]' (FDE) to 'MDP/a2_reg[31]'
+INFO: [Synth 8-3886] merging instance 'MDP/a4_reg[28]' (FDE) to 'MDP/a4_reg[29]'
+INFO: [Synth 8-3886] merging instance 'MDP/a4_reg[29]' (FDE) to 'MDP/a4_reg[30]'
+INFO: [Synth 8-3886] merging instance 'MDP/a4_reg[30]' (FDE) to 'MDP/a4_reg[31]'
+INFO: [Synth 8-3886] merging instance 'MDP/a6_reg[29]' (FDE) to 'MDP/a6_reg[30]'
+INFO: [Synth 8-3886] merging instance 'MDP/a6_reg[30]' (FDE) to 'MDP/a6_reg[31]'
+INFO: [Synth 8-3886] merging instance 'MDP/a8_reg[30]' (FDE) to 'MDP/a8_reg[31]'
+INFO: [Synth 8-3886] merging instance 'MDP/l50out_reg[0]' (FDRE) to 'MDP/l50out_reg[15]'
+INFO: [Synth 8-3886] merging instance 'MDP/l50out_reg[1]' (FDRE) to 'MDP/l50out_reg[15]'
+INFO: [Synth 8-3886] merging instance 'MDP/l50out_reg[2]' (FDRE) to 'MDP/l50out_reg[15]'
+INFO: [Synth 8-3886] merging instance 'MDP/l50out_reg[3]' (FDRE) to 'MDP/l50out_reg[15]'
+INFO: [Synth 8-3886] merging instance 'MDP/l50out_reg[4]' (FDRE) to 'MDP/l50out_reg[15]'
+INFO: [Synth 8-3886] merging instance 'MDP/l50out_reg[5]' (FDRE) to 'MDP/l50out_reg[15]'
+INFO: [Synth 8-3886] merging instance 'MDP/l50out_reg[6]' (FDRE) to 'MDP/l50out_reg[15]'
+INFO: [Synth 8-3886] merging instance 'MDP/l50out_reg[7]' (FDRE) to 'MDP/l50out_reg[15]'
+INFO: [Synth 8-3886] merging instance 'MDP/l50out_reg[8]' (FDRE) to 'MDP/l50out_reg[15]'
+INFO: [Synth 8-3886] merging instance 'MDP/l50out_reg[9]' (FDRE) to 'MDP/l50out_reg[15]'
+INFO: [Synth 8-3886] merging instance 'MDP/l50out_reg[10]' (FDRE) to 'MDP/l50out_reg[15]'
+INFO: [Synth 8-3886] merging instance 'MDP/l50out_reg[11]' (FDRE) to 'MDP/l50out_reg[15]'
+INFO: [Synth 8-3886] merging instance 'MDP/l50out_reg[12]' (FDRE) to 'MDP/l50out_reg[15]'
+INFO: [Synth 8-3886] merging instance 'MDP/l50out_reg[13]' (FDRE) to 'MDP/l50out_reg[15]'
+INFO: [Synth 8-3886] merging instance 'MDP/l50out_reg[14]' (FDRE) to 'MDP/l50out_reg[15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (MDP/\l50out_reg[15] )
+INFO: [Synth 8-3886] merging instance 'SLR/q1_reg[5]' (FDRE) to 'SLR/q1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SLR/q1_reg[6]' (FDRE) to 'SLR/q1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SLR/q1_reg[7]' (FDRE) to 'SLR/q1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SLR/q1_reg[8]' (FDRE) to 'SLR/q1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SLR/q1_reg[9]' (FDRE) to 'SLR/q1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SLR/q1_reg[10]' (FDRE) to 'SLR/q1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SLR/q1_reg[11]' (FDRE) to 'SLR/q1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SLR/q1_reg[12]' (FDRE) to 'SLR/q1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SLR/q1_reg[13]' (FDRE) to 'SLR/q1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SLR/q1_reg[14]' (FDRE) to 'SLR/q1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SLR/q1_reg[15]' (FDRE) to 'SLR/q1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SLR/q1_reg[16]' (FDRE) to 'SLR/q1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SLR/q1_reg[17]' (FDRE) to 'SLR/q1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SLR/q1_reg[18]' (FDRE) to 'SLR/q1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SLR/q1_reg[19]' (FDRE) to 'SLR/q1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SLR/q1_reg[20]' (FDRE) to 'SLR/q1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SLR/q1_reg[21]' (FDRE) to 'SLR/q1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SLR/q1_reg[22]' (FDRE) to 'SLR/q1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SLR/q1_reg[23]' (FDRE) to 'SLR/q1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SLR/q1_reg[24]' (FDRE) to 'SLR/q1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SLR/q1_reg[25]' (FDRE) to 'SLR/q1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SLR/q1_reg[26]' (FDRE) to 'SLR/q1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SLR/q1_reg[27]' (FDRE) to 'SLR/q1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SLR/q1_reg[28]' (FDRE) to 'SLR/q1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SLR/q1_reg[29]' (FDRE) to 'SLR/q1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SLR/q1_reg[30]' (FDRE) to 'SLR/q1_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SLR/q1_reg[31] )
+INFO: [Synth 8-3886] merging instance 'SLR/q2_reg[6]' (FDRE) to 'SLR/q2_reg[7]'
+INFO: [Synth 8-3886] merging instance 'SLR/q2_reg[7]' (FDRE) to 'SLR/q2_reg[8]'
+INFO: [Synth 8-3886] merging instance 'SLR/q2_reg[8]' (FDRE) to 'SLR/q2_reg[9]'
+INFO: [Synth 8-3886] merging instance 'SLR/q2_reg[9]' (FDRE) to 'SLR/q2_reg[10]'
+INFO: [Synth 8-3886] merging instance 'SLR/q2_reg[10]' (FDRE) to 'SLR/q2_reg[11]'
+INFO: [Synth 8-3886] merging instance 'SLR/q2_reg[11]' (FDRE) to 'SLR/q2_reg[12]'
+INFO: [Synth 8-3886] merging instance 'SLR/q2_reg[12]' (FDRE) to 'SLR/q2_reg[13]'
+INFO: [Synth 8-3886] merging instance 'SLR/q2_reg[13]' (FDRE) to 'SLR/q2_reg[14]'
+INFO: [Synth 8-3886] merging instance 'SLR/q2_reg[14]' (FDRE) to 'SLR/q2_reg[15]'
+INFO: [Synth 8-3886] merging instance 'SLR/q2_reg[15]' (FDRE) to 'SLR/q2_reg[16]'
+INFO: [Synth 8-3886] merging instance 'SLR/q2_reg[16]' (FDRE) to 'SLR/q2_reg[17]'
+INFO: [Synth 8-3886] merging instance 'SLR/q2_reg[17]' (FDRE) to 'SLR/q2_reg[18]'
+INFO: [Synth 8-3886] merging instance 'SLR/q2_reg[18]' (FDRE) to 'SLR/q2_reg[19]'
+INFO: [Synth 8-3886] merging instance 'SLR/q2_reg[19]' (FDRE) to 'SLR/q2_reg[20]'
+INFO: [Synth 8-3886] merging instance 'SLR/q2_reg[20]' (FDRE) to 'SLR/q2_reg[21]'
+INFO: [Synth 8-3886] merging instance 'SLR/q2_reg[21]' (FDRE) to 'SLR/q2_reg[22]'
+INFO: [Synth 8-3886] merging instance 'SLR/q2_reg[22]' (FDRE) to 'SLR/q2_reg[23]'
+INFO: [Synth 8-3886] merging instance 'SLR/q2_reg[23]' (FDRE) to 'SLR/q2_reg[24]'
+INFO: [Synth 8-3886] merging instance 'SLR/q2_reg[24]' (FDRE) to 'SLR/q2_reg[25]'
+INFO: [Synth 8-3886] merging instance 'SLR/q2_reg[25]' (FDRE) to 'SLR/q2_reg[26]'
+INFO: [Synth 8-3886] merging instance 'SLR/q2_reg[26]' (FDRE) to 'SLR/q2_reg[27]'
+INFO: [Synth 8-3886] merging instance 'SLR/q2_reg[27]' (FDRE) to 'SLR/q2_reg[28]'
+INFO: [Synth 8-3886] merging instance 'SLR/q2_reg[28]' (FDRE) to 'SLR/q2_reg[29]'
+INFO: [Synth 8-3886] merging instance 'SLR/q2_reg[29]' (FDRE) to 'SLR/q2_reg[30]'
+INFO: [Synth 8-3886] merging instance 'SLR/q2_reg[30]' (FDRE) to 'SLR/q2_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SLR/q2_reg[31] )
+INFO: [Synth 8-3886] merging instance 'MDP/a3_reg[29]' (FDE) to 'MDP/a3_reg[27]'
+INFO: [Synth 8-3886] merging instance 'MDP/a3_reg[27]' (FDE) to 'MDP/a3_reg[28]'
+INFO: [Synth 8-3886] merging instance 'MDP/a5_reg[29]' (FDE) to 'MDP/a5_reg[28]'
+INFO: [Synth 8-3886] merging instance 'MDP/a5_reg[30]' (FDE) to 'MDP/a5_reg[28]'
+INFO: [Synth 8-3886] merging instance 'MDP/a7_reg[30]' (FDE) to 'MDP/a7_reg[29]'
+INFO: [Synth 8-3886] merging instance 'MDP/a7_reg[31]' (FDE) to 'MDP/a7_reg[29]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (MDP/\a2_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (MDP/\a3_reg[28] )
+WARNING: [Synth 8-3332] Sequential element (a1_reg[31]) is unused and will be removed from module ModPlata.
+WARNING: [Synth 8-3332] Sequential element (a2_reg[31]) is unused and will be removed from module ModPlata.
+WARNING: [Synth 8-3332] Sequential element (a3_reg[31]) is unused and will be removed from module ModPlata.
+WARNING: [Synth 8-3332] Sequential element (a3_reg[30]) is unused and will be removed from module ModPlata.
+WARNING: [Synth 8-3332] Sequential element (a3_reg[28]) is unused and will be removed from module ModPlata.
+WARNING: [Synth 8-3332] Sequential element (a5_reg[31]) is unused and will be removed from module ModPlata.
+WARNING: [Synth 8-3332] Sequential element (a9_reg[31]) is unused and will be removed from module ModPlata.
+WARNING: [Synth 8-3332] Sequential element (l50out_reg[15]) is unused and will be removed from module ModPlata.
+WARNING: [Synth 8-3332] Sequential element (SLR/q2_reg[31]) is unused and will be removed from module MAIN.
+WARNING: [Synth 8-3332] Sequential element (SLR/q1_reg[31]) is unused and will be removed from module MAIN.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:48 ; elapsed = 00:01:00 . Memory (MB): peak = 618.340 ; gain = 408.441
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:04 ; elapsed = 00:01:18 . Memory (MB): peak = 658.836 ; gain = 448.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:18 ; elapsed = 00:01:36 . Memory (MB): peak = 749.328 ; gain = 539.430
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:26 ; elapsed = 00:01:47 . Memory (MB): peak = 824.281 ; gain = 614.383
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:28 ; elapsed = 00:01:49 . Memory (MB): peak = 824.281 ; gain = 614.383
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:28 ; elapsed = 00:01:49 . Memory (MB): peak = 824.281 ; gain = 614.383
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:30 ; elapsed = 00:01:51 . Memory (MB): peak = 824.281 ; gain = 614.383
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:31 ; elapsed = 00:01:52 . Memory (MB): peak = 824.281 ; gain = 614.383
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:31 ; elapsed = 00:01:52 . Memory (MB): peak = 824.281 ; gain = 614.383
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:31 ; elapsed = 00:01:52 . Memory (MB): peak = 824.281 ; gain = 614.383
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |   893|
+|3     |LUT1   |   717|
+|4     |LUT2   |  1237|
+|5     |LUT3   |  1097|
+|6     |LUT4   |   492|
+|7     |LUT5   |   840|
+|8     |LUT6   |  1456|
+|9     |MUXF7  |     3|
+|10    |XORCY  |     1|
+|11    |FDRE   |   740|
+|12    |IBUF   |    13|
+|13    |OBUF   |    27|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+--------------+------+
+|      |Instance |Module        |Cells |
++------+---------+--------------+------+
+|1     |top      |              |  7517|
+|2     |  CDB    |CasaDeBani    |  2026|
+|3     |  DCC    |Decodificator |   633|
+|4     |  MDP    |ModPlata      |  3880|
+|5     |  MPG1   |Debouncer     |    23|
+|6     |  MPG2   |Debouncer_0   |    29|
+|7     |  MPG3   |Debouncer_1   |     4|
+|8     |  MPG4   |Debouncer_2   |    69|
+|9     |  SLR    |SelectareRuta |   316|
+|10    |  SSD    |Afisor        |    53|
++------+---------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:31 ; elapsed = 00:01:52 . Memory (MB): peak = 824.281 ; gain = 614.383
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 37 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:14 ; elapsed = 00:01:39 . Memory (MB): peak = 824.281 ; gain = 311.688
+Synthesis Optimization Complete : Time (s): cpu = 00:01:31 ; elapsed = 00:01:53 . Memory (MB): peak = 824.281 ; gain = 614.383
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 907 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+149 Infos, 71 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:36 ; elapsed = 00:01:57 . Memory (MB): peak = 824.281 ; gain = 614.383
+INFO: [Common 17-1381] The checkpoint 'C:/Users/bianc/Desktop/Tren/Tren.runs/synth_1/MAIN.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.442 . Memory (MB): peak = 824.281 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Jun 01 19:45:48 2024...
